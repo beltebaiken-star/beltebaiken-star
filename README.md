@@ -30,6 +30,18 @@ My focus is practical production work: finding the real root cause, making targe
 | [Shopify Core Web Vitals Audit](https://github.com/beltebaiken-star/shopify-core-web-vitals-audit) | LCP, INP, CLS, third-party scripts and regression testing |
 | [Cloudflare Workers + D1 Shopify Backend](https://github.com/beltebaiken-star/shopify-cloudflare-workers-d1-backend) | Serverless APIs, D1, access control, rollback and production QA |
 
+## Automated proof checks
+
+The six core repositories below include **zero-dependency runnable demos** and **GitHub Actions CI**. Each demo was also executed locally after being fetched back from GitHub.
+
+[![Google Ads Demo](https://github.com/beltebaiken-star/shopify-google-ads-conversion-tracking/actions/workflows/demo-check.yml/badge.svg)](https://github.com/beltebaiken-star/shopify-google-ads-conversion-tracking/actions/workflows/demo-check.yml)
+[![GMC Demo](https://github.com/beltebaiken-star/gmc-feed-diagnostics-toolkit/actions/workflows/demo-check.yml/badge.svg)](https://github.com/beltebaiken-star/gmc-feed-diagnostics-toolkit/actions/workflows/demo-check.yml)
+[![GA4/GTM Demo](https://github.com/beltebaiken-star/shopify-ga4-gtm-ecommerce/actions/workflows/demo-check.yml/badge.svg)](https://github.com/beltebaiken-star/shopify-ga4-gtm-ecommerce/actions/workflows/demo-check.yml)
+
+[![GraphQL Demo](https://github.com/beltebaiken-star/shopify-admin-graphql-toolkit/actions/workflows/demo-check.yml/badge.svg)](https://github.com/beltebaiken-star/shopify-admin-graphql-toolkit/actions/workflows/demo-check.yml)
+[![Webhook Demo](https://github.com/beltebaiken-star/shopify-webhook-automation/actions/workflows/demo-check.yml/badge.svg)](https://github.com/beltebaiken-star/shopify-webhook-automation/actions/workflows/demo-check.yml)
+[![Billing Demo](https://github.com/beltebaiken-star/shopify-app-billing-starter/actions/workflows/demo-check.yml/badge.svg)](https://github.com/beltebaiken-star/shopify-app-billing-starter/actions/workflows/demo-check.yml)
+
 ## How I approach client work
 
 1. **Diagnose before changing things** — separate tracking, platform, storefront, feed, and campaign problems.
